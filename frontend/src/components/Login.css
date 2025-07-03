@@ -1,0 +1,76 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+  }
+  
+  .login-form {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    width: 300px;
+  }
+  
+  .login-title {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+  }
+  
+  .login-input {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .login-button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .login-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .error-message {
+    color: red;
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+  /* Register link styling */
+.register-prompt {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 14px;
+  color: #333;
+}
+
+.register-prompt a {
+  color: #0066cc;
+  text-decoration: none;
+  font-weight: 600;
+  margin-left: 5px;
+  transition: color 0.2s ease;
+}
+
+.register-prompt a:hover {
+  color: #004d99;
+  text-decoration: underline;
+}
+
+/* Optional: add this if you want the register link to look like a button on hover */
+.register-prompt a:hover {
+  cursor: pointer;
+}
