@@ -8,7 +8,8 @@ from .models import*
 from .serializers import*
 from django.db.models import Subquery,Q,OuterRef
 
-# Create your views here.
+# Chat Views
+
 class MyInbox(generics.ListAPIView):
     serializer_class = ChatMessageSerializer
     # permission_classes = [IsAuthenticated]
